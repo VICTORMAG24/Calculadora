@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#display {
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+}
+
+.numero {
+    background-color: #eee;
+}
+
+.operador {
+    background-color: #ff9800;
+    color: white;
+}
+
+#borrar {
+    background-color: #f44336;
+    color: white;
+}
+
+#calcular {
+    background-color: #4caf50;
+    color: white;
+}
